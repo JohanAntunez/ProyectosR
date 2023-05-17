@@ -95,5 +95,14 @@ library("dplyr")
 glimpse(maraton)
 summary(maraton)
 
+head(maraton, 10)
+tail(maraton, 10)
+
+install.packages("RWeka")
+library("RWeka")
+setwd("C:\\Users\\CC7\\Documents\\Johan\\ProyectosR\\ProyectosR")
+datos <- read.arff("CEE_DATA.arff")
+
+datos
 
 
